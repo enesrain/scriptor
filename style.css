@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 15px solid #2d72d9;
+}
+
+.center {
+    background-color: white;
+    height: 100%;
+    width: 900px;
+    left: 300px;
+    display: inline-block;
+    position: relative;
+ 
+}
+
+
+/*------HEADER-------------------------*/
+
+header {
+  height: 130px;
+  border-bottom:5px solid #6b747a;
+}
+.nav {
+    height: 130px;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+.link {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
+
+.link a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: #6b747a;
+}
+
+
+.logo:hover {
+    color: #2d72d9;
+}
+.link a:hover {
+    color: #2d72d9;
+}
+
+
+
+/*--------MAIN--------------------------------------------------------------------------------------*/
+
+.div1 {
+    width: 900px;
+    height: 950px;
+    position: relative;
+    display: inline-block;
+    border-bottom:1px solid #6b747a;
+}
+.date {
+    color: #6b747a;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.tittle {
+    font-size: 30px;
+    text-decoration: none;
+    color: #2c343c;
+    font-weight: 700;
+    position: relative;
+    left: 70px;
+    top: 15px; 
+}
+.tags {
+    color: #2d72d9;
+    font-style: italic;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.div1-image {
+    width: 900px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    
+    background-size: cover;
+    background-position: left;
+}
+.p {
+    color: #6b747a;
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.p ~ a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    left: 70px;
+    top: 90px;
+    color: #2d72d9;
+}
+
+
+.tittle:hover {
+      color: #2d72d9;
+}
+.p ~ a:hover {
+    color: #2c343c;
+}
+
+.bottom-main {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    top: 20px;
+    border-bottom: 1px solid #6b747a;
+}
+.bottom-main a {
+    text-decoration: none;
+    color:#2d72d9;
+   position: relative;
+    display: inline-block;
+    top: 10px;
+    left: 750px;
+    
+}
+.bottom-main p {
+    color: #6b747a;
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+
+.bottom-main a:hover {
+    color: black;
+}
+
+
+/*----FOOTER-----------------------------------------------------------------------------*/
+
+footer {
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
+footer span {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 20px;
+   color: #6b747a;
+    margin-left: 10px;
+    
+}
+footer p {
+    position: relative;
+    display: inline-block;
+    color: #6b747a;
+    top: 100px;
+    left: -90px;
+}
+footer .a {
+
+  position: relative;
+  display: inline-block;
+  top: 100px;
+  left: -90px;
+  text-decoration: none;
+  color: #2d72d9;
+}
+footer .top {
+    position: relative;
+    display: inline-block;
+    top: 100px;
+    left: 270px;
+    text-decoration: none;
+    color: #2d72d9;
+}
+
+footer span:hover {
+    color: #2d72d9;
+}
+footer .a:hover {
+    color: black;
+}
+footer .top:hover {
+color: black;
+}
