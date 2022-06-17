@@ -106,7 +106,7 @@ header {
 
 .div1 {
     width: 900px;
-    height: 950px;
+    height: 960px;
     position: relative;
     display: inline-block;
     border-bottom:1px solid #6b747a;
@@ -149,6 +149,10 @@ header {
     padding-left: 70px;
     padding-right: 70px;
     font-size: 20px;
+}
+.border-p {
+    border-left: 2px solid black;
+    color: black;
 }
 .p ~ a {
     text-decoration: none;
